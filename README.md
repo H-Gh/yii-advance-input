@@ -315,7 +315,8 @@ echo Text::widget([
 ```  
   
 ##### Preview  
-![With model](https://dl.dropboxusercontent.com/s/b64zlwo5juev5l8/with-model.jpg)
+![Right to left](https://dl.dropboxusercontent.com/s/lybrzh1oe49cc81/with-rtl.jpg)
+
 ___
 
 ### items  
@@ -341,4 +342,4 @@ echo Dropdown::widget([
 ```  
   
 ##### Preview  
-![Right to left](https://dl.dropboxusercontent.com/s/lybrzh1oe49cc81/with-rtl.jpg)
+![With model](https://dl.dropboxusercontent.com/s/b64zlwo5juev5l8/with-model.jpg)
