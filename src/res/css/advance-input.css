@@ -28,7 +28,8 @@
 }
 
 .advance-input .advance-input-holder .input input,
-.advance-input .advance-input-holder .input select {
+.advance-input .advance-input-holder .input select,
+.advance-input .advance-input-holder .input textarea {
     min-height: 34px;
     border: 1px solid #d2d6de;
     width: 100%;
