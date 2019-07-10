@@ -15,7 +15,7 @@ composer require hgh/yii-advance-input
 
 ## Widgets  
 There are 4 widget. There are common and specific options that widgets can use them that we will see them in future.  
-* [Text](#textinput)  
+* [Text](#text)  
 * [Checkbox](#checkbox)  
 * [Dropdown](#dropdown)  
 * [Textarea](#textarea)  
@@ -79,7 +79,7 @@ Main common options that all widgets can use is listed below.
 * [icon](#icon)  
 * [unit](#unit)  
 * [checkbox](#checkbox)  
-* [lablel](#label)  
+* [label](#label)  
 * [description](#description)  
 * [wrapperOptions](#wrapper-options)  
 * [inputOptions](#input-options)  
