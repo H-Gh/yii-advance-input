@@ -1,0 +1,25 @@
+/**
+ * User: h.ghasempour
+ * Date: 11/15/2018
+ * Time: 11:36 AM
+ */
+.advance-input .advance-input-holder .icon {
+    border-right: none;
+}
+
+.advance-input .advance-input-holder .unit {
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.advance-input .with-checkbox.with-icon .toggle .toggle-off,
+.advance-input .with-checkbox.with-icon .toggle .toggle-on,
+.advance-input .with-checkbox.with-icon .toggle {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.advance-input .with-checkbox.with-input .toggle {
+    border-right: 0;
+}

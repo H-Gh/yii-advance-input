@@ -1,0 +1,26 @@
+{
+  "name": "hgh/yii-advance-input",
+  "version": "1.0.0",
+  "type": "library",
+  "description": "Using this library, YOu can add inputs which has, on/off button, icon and unit.",
+  "keywords": ["jQuery","JavaScript", "Yii2", "PHP"],
+  "homepage": "https://github.com/H-Gh/yii-advance-input",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hamed Ghasempour",
+      "email": "hamedghasempour@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "components/jquery": "*",
+    "yiisoft/yii2": "~2.0.0",
+    "hgh/yii-bootstrap-toggle": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hgh\\YiiAdvanceInput\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+/**
+ * User: h.ghasempour
+ * Date: 11/15/2018
+ * Time: 11:36 AM
+ */
+
+.advance-input .advance-input-holder {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.advance-input .advance-input-holder .icon {
+    padding: 8px 7px 7px 8px;
+    border: 1px solid #d2d6de;
+    background: #f1f1f1;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+}
+
+.advance-input .advance-input-holder .icon i {
+    display: inherit;
+}
+
+.advance-input .advance-input-holder .input {
+    width: 100%;
+}
+
+.advance-input .advance-input-holder .input input,
+.advance-input .advance-input-holder .input select {
+    min-height: 34px;
+    border: 1px solid #d2d6de;
+    width: 100%;
+    padding : 0 10px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.advance-input .advance-input-holder .checkbox {
+    margin: 0;
+}
+
+.advance-input .advance-input-holder .form-group {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.advance-input .advance-input-holder .unit {
+    display: inline-block;
+    width: 50px;
+    height: 34px;
+    line-height: 30px;
+    background: #eee;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.advance-input label {
+    display: block;
+}
+
+.advance-input .description {
+    font-size: 12px;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+
+.advance-input .with-checkbox.with-input .toggle {
+    display: block;
+    border: 1px solid #d2d6de;
+}
+
+.advance-input .with-checkbox .toggle .toggle-off,
+.advance-input .with-checkbox .toggle .toggle-on,
+.advance-input .with-checkbox .toggle {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.advance-input .with-checkbox .toggle .toggle-off,
+.advance-input .with-checkbox .toggle .toggle-on {
+    border: none;
+}
+
+.advance-input .with-checkbox.with-input .toggle .toggle-off,
+.advance-input .with-checkbox.with-input .toggle .toggle-on,
+.advance-input .with-checkbox.with-input .toggle {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.advance-input .with-checkbox .toggle .toggle-handle {
+    display: none;
+}
+
+.advance-input .with-checkbox .toggle .toggle-handle-on,
+.advance-input .with-checkbox .toggle .toggle-handle-off {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.advance-input .with-checkbox .toggle-group .btn.toggle-on,
+.advance-input .with-checkbox .toggle-group .btn.toggle-off {
+    padding: 6px 12px;
+}
+
+.advance-input .with-checkbox .toggle-handle.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.advance-input .advance-input-holder .input *[disabled] {
+    background: #e6e6e6;
+    cursor: not-allowed;
+}
