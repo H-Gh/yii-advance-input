@@ -1,9 +1,18 @@
 
   
 # Yii advance input  
-Using this library, You can add widgets which have, on/off button, label, description, icon and unit.  
+Using this library, You can add inputs which has, on/off button, icon and unit.  
   
 ![help](https://dl.dropboxusercontent.com/s/km0q4rg559n5nz9/help.jpg?dl=0)  
+
+![MIT](https://img.shields.io/github/license/H-Gh/yii-advance-input.svg?style=flat-square)  ![Version](https://img.shields.io/packagist/v/hgh/yii-advance-input.svg?style=flat-square) ![Code size](https://img.shields.io/github/languages/code-size/H-gh/yii-advance-input.svg?color=red&style=flat-square)
+
+
+## Usage
+```composer
+composer require hgh/yii-advance-input
+```
+
 ## Widgets  
 There are 4 widget. There are common and specific options that widgets can use them that we will see them in future.  
 * [Text](#textinput)  
@@ -315,8 +324,7 @@ echo Text::widget([
 ```  
   
 ##### Preview  
-![Right to left](https://dl.dropboxusercontent.com/s/lybrzh1oe49cc81/with-rtl.jpg)
-
+![With model](https://dl.dropboxusercontent.com/s/b64zlwo5juev5l8/with-model.jpg)
 ___
 
 ### items  
@@ -342,4 +350,4 @@ echo Dropdown::widget([
 ```  
   
 ##### Preview  
-![With model](https://dl.dropboxusercontent.com/s/b64zlwo5juev5l8/with-model.jpg)
+![Right to left](https://dl.dropboxusercontent.com/s/lybrzh1oe49cc81/with-rtl.jpg)
