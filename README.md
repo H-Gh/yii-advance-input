@@ -1,7 +1,7 @@
 
   
 # Yii advance input  
-Using this library, You can add inputs which has, on/off button, icon and unit.  
+Using this library, You can add widgets which have, on/off button, label, description, icon and unit.  
   
 ![help](https://dl.dropboxusercontent.com/s/km0q4rg559n5nz9/help.jpg?dl=0)  
 
